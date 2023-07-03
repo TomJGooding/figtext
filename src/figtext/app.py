@@ -15,6 +15,10 @@ class FigtextApp(App):
         margin-bottom: 1;
     }
 
+    Input {
+        width: 1fr;
+    }
+
     Label {
         height: 3;
         content-align: center middle;
