@@ -60,6 +60,6 @@ class FigtextApp(App):
         pyperclip.copy(str(figlet_output))
 
 
-if __name__ == "__main__":
+def run() -> None:
     app = FigtextApp()
     app.run()
